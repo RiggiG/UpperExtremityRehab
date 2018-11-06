@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 4f7809e53926dbd4e98380b2cec82507
+timeCreated: 1541538346
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aerondight_hand
+    100002: Camera
+    100004: gloves_lod0
+    100006: //RootNode
+    100008: Hemi
+    100010: l_hand
+    100012: l_index1
+    100014: l_index2
+    100016: l_index3
+    100018: l_index3_end
+    100020: l_index3_end_end
+    100022: l_middle1
+    100024: l_middle2
+    100026: l_middle3
+    100028: l_middle3_end
+    100030: l_middle3_end_end
+    100032: l_pinky0
+    100034: l_pinky1
+    100036: l_pinky2
+    100038: l_pinky3
+    100040: l_pinky3_end
+    100042: l_pinky3_end_end
+    100044: l_ring1
+    100046: l_ring2
+    100048: l_ring3
+    100050: l_ring3_end
+    100052: l_ring3_end_end
+    100054: l_thumb1
+    100056: l_thumb2
+    100058: l_thumb3
+    100060: l_thumb3_end
+    100062: l_thumb3_end_end
+    100064: Lamp
+    100066: Point
+    100068: Root
+    400000: aerondight_hand
+    400002: Camera
+    400004: gloves_lod0
+    400006: //RootNode
+    400008: Hemi
+    400010: l_hand
+    400012: l_index1
+    400014: l_index2
+    400016: l_index3
+    400018: l_index3_end
+    400020: l_index3_end_end
+    400022: l_middle1
+    400024: l_middle2
+    400026: l_middle3
+    400028: l_middle3_end
+    400030: l_middle3_end_end
+    400032: l_pinky0
+    400034: l_pinky1
+    400036: l_pinky2
+    400038: l_pinky3
+    400040: l_pinky3_end
+    400042: l_pinky3_end_end
+    400044: l_ring1
+    400046: l_ring2
+    400048: l_ring3
+    400050: l_ring3_end
+    400052: l_ring3_end_end
+    400054: l_thumb1
+    400056: l_thumb2
+    400058: l_thumb3
+    400060: l_thumb3_end
+    400062: l_thumb3_end_end
+    400064: Lamp
+    400066: Point
+    400068: Root
+    2300000: gloves_lod0
+    3300000: gloves_lod0
+    4300000: gloves_lod0
+    4300002: aerondight_hand
+    7400000: Hemi|Hemi|Hemi|00|Hemi|00
+    7400002: Hemi|Point|Point|00|Point|00
+    7400004: Point|Hemi|Hemi|00|Hemi|00
+    7400006: Point|Point|Point|00|Point|00
+    9500000: //RootNode
+    13700000: aerondight_hand
+    13700002: gloves_lod0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 4c2a89954382de345abbba25e17e3f88
+timeCreated: 1538610524
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Circle
+    100004: counter1
+    100006: Cube.003
+    100008: fridgebody
+    100010: island
+    100012: islandtop
+    100014: //RootNode
+    100016: Lamp
+    100018: ovenbody
+    100020: Plane
+    100022: sink_faucet_base
+    100024: sink_faucet_hose
+    100026: sink_faucet_hose_empty
+    100028: sink_faucet_neck
+    100030: counter1top
+    100032: counter2
+    100034: counter2top
+    100036: floor
+    400000: Camera
+    400002: Circle
+    400004: counter1
+    400006: Cube.003
+    400008: fridgebody
+    400010: island
+    400012: islandtop
+    400014: //RootNode
+    400016: Lamp
+    400018: ovenbody
+    400020: Plane
+    400022: sink_faucet_base
+    400024: sink_faucet_hose
+    400026: sink_faucet_hose_empty
+    400028: sink_faucet_neck
+    400030: counter1top
+    400032: counter2
+    400034: counter2top
+    400036: floor
+    2300000: Circle
+    2300002: counter1
+    2300004: Cube.003
+    2300006: fridgebody
+    2300008: island
+    2300010: islandtop
+    2300012: ovenbody
+    2300014: Plane
+    2300016: sink_faucet_base
+    2300018: sink_faucet_hose
+    2300020: sink_faucet_neck
+    2300022: counter1top
+    2300024: counter2
+    2300026: counter2top
+    2300028: floor
+    3300000: Circle
+    3300002: counter1
+    3300004: Cube.003
+    3300006: fridgebody
+    3300008: island
+    3300010: islandtop
+    3300012: ovenbody
+    3300014: Plane
+    3300016: sink_faucet_base
+    3300018: sink_faucet_hose
+    3300020: sink_faucet_neck
+    3300022: counter1top
+    3300024: counter2
+    3300026: counter2top
+    3300028: floor
+    4300000: Circle
+    4300002: sink_faucet_hose
+    4300004: sink_faucet_neck
+    4300006: sink_faucet_base
+    4300008: ovenbody
+    4300010: fridgebody
+    4300012: counter1
+    4300014: Cube.003
+    4300016: island
+    4300018: islandtop
+    4300020: Plane
+    4300022: counter2
+    4300024: counter2top
+    4300026: counter1top
+    4300028: floor
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
