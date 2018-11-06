@@ -40,6 +40,44 @@ ModelImporter:
     100064: Lamp
     100066: Point
     100068: Root
+    100070: Armature
+    100072: Cube.005
+    100074: finger_index.01.L
+    100076: finger_index.02.L
+    100078: finger_index.03.L
+    100080: finger_index.03.L_end
+    100082: finger_index.03.L_end_end
+    100084: finger_middle.01.L
+    100086: finger_middle.02.L
+    100088: finger_middle.03.L
+    100090: finger_middle.03.L_end
+    100092: finger_middle.03.L_end_end
+    100094: finger_pinky.01.L
+    100096: finger_pinky.02.L
+    100098: finger_pinky.03.L
+    100100: finger_pinky.03.L_end
+    100102: finger_pinky.03.L_end_end
+    100104: finger_ring.01.L
+    100106: finger_ring.02.L
+    100108: finger_ring.03.L
+    100110: finger_ring.03.L_end
+    100112: finger_ring.03.L_end_end
+    100114: forearm.L
+    100116: hand.L
+    100118: palm.01.L
+    100120: palm.01.L.001
+    100122: palm.02.L
+    100124: palm.02.L.001
+    100126: palm.03.L
+    100128: palm.03.L.001
+    100130: palm.04.L
+    100132: palm.04.L.001
+    100134: thumb.01.L
+    100136: thumb.01.L.001
+    100138: thumb.02.L
+    100140: thumb.03.L
+    100142: thumb.03.L_end
+    100144: thumb.03.L_end_end
     400000: aerondight_hand
     400002: Camera
     400004: gloves_lod0
@@ -75,10 +113,51 @@ ModelImporter:
     400064: Lamp
     400066: Point
     400068: Root
+    400070: Armature
+    400072: Cube.005
+    400074: finger_index.01.L
+    400076: finger_index.02.L
+    400078: finger_index.03.L
+    400080: finger_index.03.L_end
+    400082: finger_index.03.L_end_end
+    400084: finger_middle.01.L
+    400086: finger_middle.02.L
+    400088: finger_middle.03.L
+    400090: finger_middle.03.L_end
+    400092: finger_middle.03.L_end_end
+    400094: finger_pinky.01.L
+    400096: finger_pinky.02.L
+    400098: finger_pinky.03.L
+    400100: finger_pinky.03.L_end
+    400102: finger_pinky.03.L_end_end
+    400104: finger_ring.01.L
+    400106: finger_ring.02.L
+    400108: finger_ring.03.L
+    400110: finger_ring.03.L_end
+    400112: finger_ring.03.L_end_end
+    400114: forearm.L
+    400116: hand.L
+    400118: palm.01.L
+    400120: palm.01.L.001
+    400122: palm.02.L
+    400124: palm.02.L.001
+    400126: palm.03.L
+    400128: palm.03.L.001
+    400130: palm.04.L
+    400132: palm.04.L.001
+    400134: thumb.01.L
+    400136: thumb.01.L.001
+    400138: thumb.02.L
+    400140: thumb.03.L
+    400142: thumb.03.L_end
+    400144: thumb.03.L_end_end
     2300000: gloves_lod0
+    2300002: Cube.005
     3300000: gloves_lod0
+    3300002: Cube.005
     4300000: gloves_lod0
     4300002: aerondight_hand
+    4300004: Cube.005
     7400000: Hemi|Hemi|Hemi|00|Hemi|00
     7400002: Hemi|Point|Point|00|Point|00
     7400004: Point|Hemi|Hemi|00|Hemi|00

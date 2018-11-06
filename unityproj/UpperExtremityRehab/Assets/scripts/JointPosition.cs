@@ -47,8 +47,11 @@ public class JointPosition : MonoBehaviour
                //this.gameObject.transform.position = new Vector3
                // this.gameObject.transform.localPosition =  body.Joints[_jointType].Position;
                 var pos = body.Joints[_jointType].Position;
-               this.gameObject.transform.position = new Vector3(pos.X, pos.Y, pos.Z);
-                break;
+				var rot = body.JointOrientations[_jointType].Orientation;
+				
+                this.gameObject.transform.position = new Vector3(pos.X, pos.Y + 2, pos.Z);
+                this.gameObject.transform.eulerAngles = new Vector3(rot.X, rot.Y, rot.Z);
+				break;
             }
         }
 	}
