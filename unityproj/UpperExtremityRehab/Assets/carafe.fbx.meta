@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 0433363e48e888d43adb6fe199cc40ff
+timeCreated: 1543349009
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: instance_0
+    100004: instance_0.001
+    100006: instance_1
+    100008: instance_1.001
+    100010: instance_2
+    100012: instance_2.001
+    100014: instance_2.002
+    100016: instance_3
+    100018: instance_3.001
+    100020: instance_4
+    100022: instance_4.001
+    100024: instance_5
+    100026: instance_5.001
+    100028: instance_5.002
+    100030: SketchUp.001
+    100032: SketchUp.002
+    100034: SketchUp.003
+    100036: SketchUp.004
+    100038: SketchUp.005
+    100040: SketchUp.006
+    100042: SketchUp.007
+    100044: SketchUp.008
+    100046: SketchUp.009
+    100048: SketchUp.010
+    100050: SketchUp.011
+    100052: SketchUp.012
+    100054: SketchUp.013
+    100056: SketchUp.014
+    100058: SketchUp.015
+    100060: skp_camera_Last_Saved_SketchUp_View
+    400000: //RootNode
+    400002: instance_0
+    400004: instance_0.001
+    400006: instance_1
+    400008: instance_1.001
+    400010: instance_2
+    400012: instance_2.001
+    400014: instance_2.002
+    400016: instance_3
+    400018: instance_3.001
+    400020: instance_4
+    400022: instance_4.001
+    400024: instance_5
+    400026: instance_5.001
+    400028: instance_5.002
+    400030: SketchUp.001
+    400032: SketchUp.002
+    400034: SketchUp.003
+    400036: SketchUp.004
+    400038: SketchUp.005
+    400040: SketchUp.006
+    400042: SketchUp.007
+    400044: SketchUp.008
+    400046: SketchUp.009
+    400048: SketchUp.010
+    400050: SketchUp.011
+    400052: SketchUp.012
+    400054: SketchUp.013
+    400056: SketchUp.014
+    400058: SketchUp.015
+    400060: skp_camera_Last_Saved_SketchUp_View
+    2300000: //RootNode
+    2300002: instance_0
+    2300004: instance_0.001
+    2300006: instance_1
+    2300008: instance_1.001
+    2300010: instance_2
+    2300012: instance_2.001
+    2300014: instance_2.002
+    2300016: instance_3
+    2300018: instance_3.001
+    2300020: instance_4
+    2300022: instance_4.001
+    2300024: instance_5
+    2300026: instance_5.001
+    2300028: instance_5.002
+    2300030: SketchUp.001
+    2300032: SketchUp.002
+    2300034: SketchUp.003
+    2300036: SketchUp.004
+    2300038: SketchUp.005
+    2300040: SketchUp.006
+    2300042: SketchUp.007
+    2300044: SketchUp.008
+    2300046: SketchUp.009
+    2300048: SketchUp.010
+    2300050: SketchUp.011
+    2300052: SketchUp.012
+    2300054: SketchUp.013
+    2300056: SketchUp.014
+    2300058: SketchUp.015
+    3300000: //RootNode
+    3300002: instance_0
+    3300004: instance_0.001
+    3300006: instance_1
+    3300008: instance_1.001
+    3300010: instance_2
+    3300012: instance_2.001
+    3300014: instance_2.002
+    3300016: instance_3
+    3300018: instance_3.001
+    3300020: instance_4
+    3300022: instance_4.001
+    3300024: instance_5
+    3300026: instance_5.001
+    3300028: instance_5.002
+    3300030: SketchUp.001
+    3300032: SketchUp.002
+    3300034: SketchUp.003
+    3300036: SketchUp.004
+    3300038: SketchUp.005
+    3300040: SketchUp.006
+    3300042: SketchUp.007
+    3300044: SketchUp.008
+    3300046: SketchUp.009
+    3300048: SketchUp.010
+    3300050: SketchUp.011
+    3300052: SketchUp.012
+    3300054: SketchUp.013
+    3300056: SketchUp.014
+    3300058: SketchUp.015
+    4300000: SketchUp
+    4300002: SketchUp.015
+    4300004: SketchUp.014
+    4300006: SketchUp.013
+    4300008: SketchUp.012
+    4300010: SketchUp.011
+    4300012: SketchUp.010
+    4300014: SketchUp.009
+    4300016: SketchUp.008
+    4300018: SketchUp.007
+    4300020: SketchUp.006
+    4300022: SketchUp.005
+    4300024: SketchUp.004
+    4300026: SketchUp.003
+    4300028: SketchUp.002
+    4300030: SketchUp.001
+    4300032: instance_5.002
+    4300034: instance_5.001
+    4300036: instance_5
+    4300038: instance_4.001
+    4300040: instance_4
+    4300042: instance_3.001
+    4300044: instance_3
+    4300046: instance_2.002
+    4300048: instance_2.001
+    4300050: instance_2
+    4300052: instance_1.001
+    4300054: instance_1
+    4300056: instance_0.001
+    4300058: instance_0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

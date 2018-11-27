@@ -1,70 +1,138 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using Windows.Kinect;
 
 public class BodySourceManager : MonoBehaviour 
 {
-    private KinectSensor _Sensor;
-    private BodyFrameReader _Reader;
-    private Body[] _Data = null;
-    
-    public Body[] GetData()
-    {
-        return _Data;
-    }
-    
+	/******************************************************
+     * PRIVATE
+     *****************************************************/
+    private KinectSensor sensor;
+    private BodyFrameReader reader;
+    private Body[] data = null;
+    private Dictionary<ulong, Body> bodies = new Dictionary<ulong, Body>();
+    private List<ulong> bodyOrder = new List<ulong>();
 
+    /******************************************************
+     * START
+     *****************************************************/
     void Start () 
     {
-        _Sensor = KinectSensor.GetDefault();
+        this.sensor = KinectSensor.GetDefault();
 
-        if (_Sensor != null)
+        if (this.sensor != null)
         {
-            _Reader = _Sensor.BodyFrameSource.OpenReader();
+            this.reader = this.sensor.BodyFrameSource.OpenReader();
             
-            if (!_Sensor.IsOpen)
+            int bodycount = this.sensor.BodyFrameSource.BodyCount;
+
+            this.data = new Body[bodycount];
+
+            if (!this.sensor.IsOpen)
             {
-                _Sensor.Open();
+                this.sensor.Open();
             }
         }   
     }
-    
+
+    /******************************************************
+     * UPDATE
+     *****************************************************/
     void Update () 
     {
-        if (_Reader != null)
+        if (this.reader != null)
         {
-            var frame = _Reader.AcquireLatestFrame();
+            var frame = this.reader.AcquireLatestFrame();
             if (frame != null)
             {
-                if (_Data == null)
+                if (this.data == null)
                 {
-                    _Data = new Body[_Sensor.BodyFrameSource.BodyCount];
+                    this.data = new Body[this.sensor.BodyFrameSource.BodyCount];
                 }
                 
-                frame.GetAndRefreshBodyData(_Data);
-                
+                frame.GetAndRefreshBodyData(this.data);              
                 frame.Dispose();
                 frame = null;
             }
-        }    
+
+            if (this.data == null) { return; }
+
+            List<ulong> trackedIds = new List<ulong>();
+            foreach (var body in this.data)
+            {
+                if (body != null)
+				{
+	                if (body.IsTracked)
+	                {
+	                    trackedIds.Add(body.TrackingId);
+	                }
+				}
+            }
+
+            List<ulong> knownIds = new List<ulong>(bodies.Keys);
+            foreach (ulong trackingId in knownIds)
+            {
+                if (!trackedIds.Contains(trackingId))
+                {
+                    this.bodies.Remove(trackingId);
+                    this.bodyOrder.Remove(trackingId);
+                }
+            }
+
+            foreach (var body in this.data)
+            {
+                if (body != null)
+				{
+	                if (body.IsTracked)
+	                {
+	                    if (!this.bodies.ContainsKey(body.TrackingId))
+	                    {
+	                        this.bodyOrder.Add(body.TrackingId);
+	                        this.bodies[body.TrackingId] = body;
+	                    }
+	                }
+				}
+            }
+        }
     }
-    
+
+    /******************************************************
+     * GETTERS
+     *****************************************************/
+    public Body[] GetData()
+    {
+        return this.data;
+    }
+
+    public Dictionary<ulong, Body> GetBodies()
+    {
+        return this.bodies;
+    }
+
+    public int OrderOf(ulong id)
+    {
+        return this.bodyOrder.IndexOf(id);
+    }
+
+    /******************************************************
+     * EVENTS
+     *****************************************************/
     void OnApplicationQuit()
     {
-        if (_Reader != null)
+        if (this.reader != null)
         {
-            _Reader.Dispose();
-            _Reader = null;
+            this.reader.Dispose();
+            this.reader = null;
         }
         
-        if (_Sensor != null)
+        if (this.sensor != null)
         {
-            if (_Sensor.IsOpen)
+            if (this.sensor.IsOpen)
             {
-                _Sensor.Close();
-            }
-            
-            _Sensor = null;
+                this.sensor.Close();
+            }     
+            this.sensor = null;
         }
     }
 }
