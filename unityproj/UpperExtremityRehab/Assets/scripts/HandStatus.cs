@@ -4,16 +4,15 @@ using Windows.Kinect;
 
 public class HandStatus : MonoBehaviour 
 {
-	public float rayDistance;
-	public GameObject _bodySourceManager, handLeft, handRight;
+	public GameObject _bodySourceManager, handLeft, handRight, grabPosL, grabPosR;
     private BodySourceManager _bodyManager;
 	Renderer rendLeft, rendRight;
 	// Use this for initialization
 	void Start () 
     {
-		handLeft = GameObject.Find("SphereL");
+		handLeft = GameObject.Find("HandL");
 		rendLeft = handLeft.GetComponent<Renderer>();
-		handRight = GameObject.Find("SphereR");
+		handRight = GameObject.Find("HandR");
 		rendRight = handRight.GetComponent<Renderer>();
 		Debug.Log("hand state tracker init");
 		
@@ -55,7 +54,7 @@ public class HandStatus : MonoBehaviour
 					
 					Debug.Log("Right hand closed");
 					rendRight.material.SetColor("_Color", Color.green);
-					Grab(Windows.Kinect.JointType.HandRight);
+					GrabRight(GetClosestObject(grabPosR));
 			   }
 			   else
 			   {
@@ -66,7 +65,7 @@ public class HandStatus : MonoBehaviour
 			   if (body.HandLeftState == HandState.Closed)
 			   {
 					Debug.Log("Left hand closed");
-					Grab(Windows.Kinect.JointType.HandLeft);
+					GrabLeft(GetClosestObject(grabPosL));
 					rendLeft.material.SetColor("_Color", Color.green);
 			   }
 			   else
@@ -82,13 +81,48 @@ public class HandStatus : MonoBehaviour
 	
 	}
 	
-	void Grab (Windows.Kinect.JointType joint) {
+	GameObject GetClosestObject(GameObject origin)
+	{
+		GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("canGrab");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = origin.transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+			if (distance > 0.04)
+			{
+				closest = null;
+			}
+        }
 		
-		if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward))){
-			Debug.Log("hit");
-			
-		}
-		return;
+        return closest;
+		
+	}
+	
+	void GrabRight(GameObject toGrab)
+	{
+		if (toGrab == null)
+			return;
+		
+		toGrab.transform.position = grabPosR.transform.position;
+		toGrab.transform.rotation = grabPosR.transform.rotation;
+
+	}
+	
+	void GrabLeft(GameObject toGrab)
+	{
+		if (toGrab == null)
+			return;
+		toGrab.transform.position = grabPosL.transform.position;
+		toGrab.transform.rotation = grabPosL.transform.rotation;
 	}
 	
 }
