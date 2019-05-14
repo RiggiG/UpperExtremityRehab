@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 4c2a89954382de345abbba25e17e3f88
-timeCreated: 1538610524
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Camera
     100002: Circle
@@ -24,6 +22,75 @@ ModelImporter:
     100032: counter2
     100034: counter2top
     100036: floor
+    100038: BezierCircle
+    100040: cabinet_abovemw
+    100042: cabinet_door_narrow.drawers_l
+    100044: cabinet_door_narrow.mw_l
+    100046: cabinet_door_narrow.mw_l.001
+    100048: cabinet_door_normal.oven_l
+    100050: cabinet_door_normal.oven_r
+    100052: cabinet_door_normal.sink_l
+    100054: cabinet_door_normal.sink_r
+    100056: cabinet_handle_b
+    100058: cabinet_handle_b.001
+    100060: cabinet_handle_b.002
+    100062: cabinet_handle_b.003
+    100064: cabinet_handle_b.004
+    100066: cabinet_handle_b.005
+    100068: cabinet_handle_b.006
+    100070: cabinet_handle_b.007
+    100072: cabinet_handle_b.008
+    100074: cabinet_handle_b.009
+    100076: cabinet_handle_b.010
+    100078: cabinet_handle_b.011
+    100080: cabinet_handle_b.012
+    100082: cabinet_handle_b.013
+    100084: cabinet_handle_b.014
+    100086: cabinet_handle_b.015
+    100088: cabinet_handle_b.016
+    100090: cabinet_handle_b.017
+    100092: cabinet_handle_b.018
+    100094: cabinet_handle_b.019
+    100096: cabinet_handle_b.020
+    100098: cabinet_handle_b.021
+    100100: cabinet_handle_main
+    100102: cabinet_handle_main.001
+    100104: cabinet_handle_main.002
+    100106: cabinet_handle_main.003
+    100108: cabinet_handle_main.004
+    100110: cabinet_handle_main.005
+    100112: cabinet_handle_main.006
+    100114: cabinet_handle_main.007
+    100116: cabinet_handle_main.008
+    100118: cabinet_handle_main.009
+    100120: cabinet_handle_main.010
+    100122: ceil
+    100124: Cylinder
+    100126: Cylinder.001
+    100128: Cylinder.001_MeshPart0
+    100130: Cylinder.001_MeshPart1
+    100132: Cylinder.002
+    100134: Cylinder.002_MeshPart0
+    100136: Cylinder.002_MeshPart1
+    100138: Cylinder.003
+    100140: Cylinder.003_MeshPart0
+    100142: Cylinder.003_MeshPart1
+    100144: Cylinder.004
+    100146: Cylinder.004_MeshPart0
+    100148: Cylinder.004_MeshPart1
+    100150: Cylinder_MeshPart0
+    100152: Cylinder_MeshPart1
+    100154: drawer_normal.sink_l_top
+    100156: drawer_normal.sink_l_top.001
+    100158: drawer_normal.sink_l_top.002
+    100160: drawer_normal.sink_l_top.003
+    100162: microwave
+    100164: mw_door
+    100166: mw_face
+    100168: mw_handle
+    100170: oven_handle
+    100172: wallN
+    100174: wallW
     400000: Camera
     400002: Circle
     400004: counter1
@@ -43,6 +110,75 @@ ModelImporter:
     400032: counter2
     400034: counter2top
     400036: floor
+    400038: BezierCircle
+    400040: cabinet_abovemw
+    400042: cabinet_door_narrow.drawers_l
+    400044: cabinet_door_narrow.mw_l
+    400046: cabinet_door_narrow.mw_l.001
+    400048: cabinet_door_normal.oven_l
+    400050: cabinet_door_normal.oven_r
+    400052: cabinet_door_normal.sink_l
+    400054: cabinet_door_normal.sink_r
+    400056: cabinet_handle_b
+    400058: cabinet_handle_b.001
+    400060: cabinet_handle_b.002
+    400062: cabinet_handle_b.003
+    400064: cabinet_handle_b.004
+    400066: cabinet_handle_b.005
+    400068: cabinet_handle_b.006
+    400070: cabinet_handle_b.007
+    400072: cabinet_handle_b.008
+    400074: cabinet_handle_b.009
+    400076: cabinet_handle_b.010
+    400078: cabinet_handle_b.011
+    400080: cabinet_handle_b.012
+    400082: cabinet_handle_b.013
+    400084: cabinet_handle_b.014
+    400086: cabinet_handle_b.015
+    400088: cabinet_handle_b.016
+    400090: cabinet_handle_b.017
+    400092: cabinet_handle_b.018
+    400094: cabinet_handle_b.019
+    400096: cabinet_handle_b.020
+    400098: cabinet_handle_b.021
+    400100: cabinet_handle_main
+    400102: cabinet_handle_main.001
+    400104: cabinet_handle_main.002
+    400106: cabinet_handle_main.003
+    400108: cabinet_handle_main.004
+    400110: cabinet_handle_main.005
+    400112: cabinet_handle_main.006
+    400114: cabinet_handle_main.007
+    400116: cabinet_handle_main.008
+    400118: cabinet_handle_main.009
+    400120: cabinet_handle_main.010
+    400122: ceil
+    400124: Cylinder
+    400126: Cylinder.001
+    400128: Cylinder.001_MeshPart0
+    400130: Cylinder.001_MeshPart1
+    400132: Cylinder.002
+    400134: Cylinder.002_MeshPart0
+    400136: Cylinder.002_MeshPart1
+    400138: Cylinder.003
+    400140: Cylinder.003_MeshPart0
+    400142: Cylinder.003_MeshPart1
+    400144: Cylinder.004
+    400146: Cylinder.004_MeshPart0
+    400148: Cylinder.004_MeshPart1
+    400150: Cylinder_MeshPart0
+    400152: Cylinder_MeshPart1
+    400154: drawer_normal.sink_l_top
+    400156: drawer_normal.sink_l_top.001
+    400158: drawer_normal.sink_l_top.002
+    400160: drawer_normal.sink_l_top.003
+    400162: microwave
+    400164: mw_door
+    400166: mw_face
+    400168: mw_handle
+    400170: oven_handle
+    400172: wallN
+    400174: wallW
     2300000: Circle
     2300002: counter1
     2300004: Cube.003
@@ -58,6 +194,70 @@ ModelImporter:
     2300024: counter2
     2300026: counter2top
     2300028: floor
+    2300030: BezierCircle
+    2300032: cabinet_abovemw
+    2300034: cabinet_door_narrow.drawers_l
+    2300036: cabinet_door_narrow.mw_l
+    2300038: cabinet_door_narrow.mw_l.001
+    2300040: cabinet_door_normal.oven_l
+    2300042: cabinet_door_normal.oven_r
+    2300044: cabinet_door_normal.sink_l
+    2300046: cabinet_door_normal.sink_r
+    2300048: cabinet_handle_b
+    2300050: cabinet_handle_b.001
+    2300052: cabinet_handle_b.002
+    2300054: cabinet_handle_b.003
+    2300056: cabinet_handle_b.004
+    2300058: cabinet_handle_b.005
+    2300060: cabinet_handle_b.006
+    2300062: cabinet_handle_b.007
+    2300064: cabinet_handle_b.008
+    2300066: cabinet_handle_b.009
+    2300068: cabinet_handle_b.010
+    2300070: cabinet_handle_b.011
+    2300072: cabinet_handle_b.012
+    2300074: cabinet_handle_b.013
+    2300076: cabinet_handle_b.014
+    2300078: cabinet_handle_b.015
+    2300080: cabinet_handle_b.016
+    2300082: cabinet_handle_b.017
+    2300084: cabinet_handle_b.018
+    2300086: cabinet_handle_b.019
+    2300088: cabinet_handle_b.020
+    2300090: cabinet_handle_b.021
+    2300092: cabinet_handle_main
+    2300094: cabinet_handle_main.001
+    2300096: cabinet_handle_main.002
+    2300098: cabinet_handle_main.003
+    2300100: cabinet_handle_main.004
+    2300102: cabinet_handle_main.005
+    2300104: cabinet_handle_main.006
+    2300106: cabinet_handle_main.007
+    2300108: cabinet_handle_main.008
+    2300110: cabinet_handle_main.009
+    2300112: cabinet_handle_main.010
+    2300114: ceil
+    2300116: Cylinder.001_MeshPart0
+    2300118: Cylinder.001_MeshPart1
+    2300120: Cylinder.002_MeshPart0
+    2300122: Cylinder.002_MeshPart1
+    2300124: Cylinder.003_MeshPart0
+    2300126: Cylinder.003_MeshPart1
+    2300128: Cylinder.004_MeshPart0
+    2300130: Cylinder.004_MeshPart1
+    2300132: Cylinder_MeshPart0
+    2300134: Cylinder_MeshPart1
+    2300136: drawer_normal.sink_l_top
+    2300138: drawer_normal.sink_l_top.001
+    2300140: drawer_normal.sink_l_top.002
+    2300142: drawer_normal.sink_l_top.003
+    2300144: microwave
+    2300146: mw_door
+    2300148: mw_face
+    2300150: mw_handle
+    2300152: oven_handle
+    2300154: wallN
+    2300156: wallW
     3300000: Circle
     3300002: counter1
     3300004: Cube.003
@@ -73,6 +273,70 @@ ModelImporter:
     3300024: counter2
     3300026: counter2top
     3300028: floor
+    3300030: BezierCircle
+    3300032: cabinet_abovemw
+    3300034: cabinet_door_narrow.drawers_l
+    3300036: cabinet_door_narrow.mw_l
+    3300038: cabinet_door_narrow.mw_l.001
+    3300040: cabinet_door_normal.oven_l
+    3300042: cabinet_door_normal.oven_r
+    3300044: cabinet_door_normal.sink_l
+    3300046: cabinet_door_normal.sink_r
+    3300048: cabinet_handle_b
+    3300050: cabinet_handle_b.001
+    3300052: cabinet_handle_b.002
+    3300054: cabinet_handle_b.003
+    3300056: cabinet_handle_b.004
+    3300058: cabinet_handle_b.005
+    3300060: cabinet_handle_b.006
+    3300062: cabinet_handle_b.007
+    3300064: cabinet_handle_b.008
+    3300066: cabinet_handle_b.009
+    3300068: cabinet_handle_b.010
+    3300070: cabinet_handle_b.011
+    3300072: cabinet_handle_b.012
+    3300074: cabinet_handle_b.013
+    3300076: cabinet_handle_b.014
+    3300078: cabinet_handle_b.015
+    3300080: cabinet_handle_b.016
+    3300082: cabinet_handle_b.017
+    3300084: cabinet_handle_b.018
+    3300086: cabinet_handle_b.019
+    3300088: cabinet_handle_b.020
+    3300090: cabinet_handle_b.021
+    3300092: cabinet_handle_main
+    3300094: cabinet_handle_main.001
+    3300096: cabinet_handle_main.002
+    3300098: cabinet_handle_main.003
+    3300100: cabinet_handle_main.004
+    3300102: cabinet_handle_main.005
+    3300104: cabinet_handle_main.006
+    3300106: cabinet_handle_main.007
+    3300108: cabinet_handle_main.008
+    3300110: cabinet_handle_main.009
+    3300112: cabinet_handle_main.010
+    3300114: ceil
+    3300116: Cylinder.001_MeshPart0
+    3300118: Cylinder.001_MeshPart1
+    3300120: Cylinder.002_MeshPart0
+    3300122: Cylinder.002_MeshPart1
+    3300124: Cylinder.003_MeshPart0
+    3300126: Cylinder.003_MeshPart1
+    3300128: Cylinder.004_MeshPart0
+    3300130: Cylinder.004_MeshPart1
+    3300132: Cylinder_MeshPart0
+    3300134: Cylinder_MeshPart1
+    3300136: drawer_normal.sink_l_top
+    3300138: drawer_normal.sink_l_top.001
+    3300140: drawer_normal.sink_l_top.002
+    3300142: drawer_normal.sink_l_top.003
+    3300144: microwave
+    3300146: mw_door
+    3300148: mw_face
+    3300150: mw_handle
+    3300152: oven_handle
+    3300154: wallN
+    3300156: wallW
     4300000: Circle
     4300002: sink_faucet_hose
     4300004: sink_faucet_neck
@@ -88,10 +352,171 @@ ModelImporter:
     4300024: counter2top
     4300026: counter1top
     4300028: floor
+    4300030: oven_handle
+    4300032: cabinet_door_narrow.mw_l.001
+    4300034: cabinet_handle_main.010
+    4300036: cabinet_handle_b.021
+    4300038: cabinet_handle_b.020
+    4300040: cabinet_door_narrow.mw_l
+    4300042: cabinet_handle_main.009
+    4300044: cabinet_handle_b.019
+    4300046: cabinet_handle_b.018
+    4300048: BezierCircle
+    4300050: cabinet_abovemw
+    4300052: cabinet_door_narrow.drawers_l
+    4300054: cabinet_handle_main.008
+    4300056: cabinet_handle_b.017
+    4300058: cabinet_handle_b.016
+    4300060: cabinet_door_normal.oven_r
+    4300062: cabinet_handle_main.007
+    4300064: cabinet_handle_b.015
+    4300066: cabinet_handle_b.014
+    4300068: cabinet_door_normal.oven_l
+    4300070: cabinet_handle_main.006
+    4300072: cabinet_handle_b.013
+    4300074: cabinet_handle_b.012
+    4300076: microwave
+    4300078: mw_handle
+    4300080: mw_door
+    4300082: mw_face
+    4300084: drawer_normal.sink_l_top.003
+    4300086: cabinet_handle_main.005
+    4300088: cabinet_handle_b.011
+    4300090: cabinet_handle_b.010
+    4300092: drawer_normal.sink_l_top.002
+    4300094: cabinet_handle_main.004
+    4300096: cabinet_handle_b.009
+    4300098: cabinet_handle_b.008
+    4300100: drawer_normal.sink_l_top.001
+    4300102: cabinet_handle_main.003
+    4300104: cabinet_handle_b.007
+    4300106: cabinet_handle_b.006
+    4300108: drawer_normal.sink_l_top
+    4300110: cabinet_handle_main.002
+    4300112: cabinet_handle_b.005
+    4300114: cabinet_handle_b.004
+    4300116: cabinet_door_normal.sink_r
+    4300118: cabinet_handle_main.001
+    4300120: cabinet_handle_b.003
+    4300122: cabinet_handle_b.002
+    4300124: cabinet_door_normal.sink_l
+    4300126: cabinet_handle_main
+    4300128: cabinet_handle_b.001
+    4300130: cabinet_handle_b
+    4300132: ceil
+    4300134: wallW
+    4300136: wallN
+    4300138: Cylinder_MeshPart0
+    4300140: Cylinder_MeshPart1
+    4300142: Cylinder.001_MeshPart0
+    4300144: Cylinder.001_MeshPart1
+    4300146: Cylinder.002_MeshPart0
+    4300148: Cylinder.002_MeshPart1
+    4300150: Cylinder.003_MeshPart0
+    4300152: Cylinder.003_MeshPart1
+    4300154: Cylinder.004_MeshPart0
+    4300156: Cylinder.004_MeshPart1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: eb9bc0b92762ec044b6620e5f1a39dac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabinet
+    second: {fileID: 2100000, guid: d926867dd7503b1469b67b5b361d7573, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: counter
+    second: {fileID: 2100000, guid: ec9c71bb4e3e5d84ab1be430ffc356e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: counterside
+    second: {fileID: 2100000, guid: 57acf22a833caec489c2915e326a6787, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drawer
+    second: {fileID: 2100000, guid: 80984c4240a019549be7ee62ca69bf12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 2c6dc159759ab364fb38029adfff0557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handle
+    second: {fileID: 2100000, guid: 3c2ef61388356974dabc192801e37a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: islandside
+    second: {fileID: 2100000, guid: 21afaac960dc5dc45ae69e3b8afddc0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: islandtop
+    second: {fileID: 2100000, guid: 122280c37c7fd634fb996814c844ae1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knob
+    second: {fileID: 2100000, guid: 107b56be7fffa1d44bb75271fd53787f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: microwave
+    second: {fileID: 2100000, guid: de0d31732b5c70844ac07e0fceb98b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mw_door
+    second: {fileID: 2100000, guid: d769e7e67b6b87248be7fd6552db68da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mw_face
+    second: {fileID: 2100000, guid: 40c6494e0b5f53245923b6338025abdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mw_handle
+    second: {fileID: 2100000, guid: 5c0a596b3a4bb6f4ead6600b9a5290df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oven
+    second: {fileID: 2100000, guid: 3a059bbe59f77e14b8d4ddfb4074c921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oven_handle
+    second: {fileID: 2100000, guid: 1292dabd9b65da54d939a857c420eb79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sink
+    second: {fileID: 2100000, guid: b27cb52ab41d2d94d86cc4cd7ff994ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: 9a84de1a4ace85542990825edf329562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowframe
+    second: {fileID: 2100000, guid: 8c010029921447149ad16bd60da7692c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -104,12 +529,14 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -117,13 +544,18 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -133,6 +565,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
