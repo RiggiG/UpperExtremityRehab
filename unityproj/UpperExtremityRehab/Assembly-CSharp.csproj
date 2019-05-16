@@ -59,6 +59,7 @@
      <Compile Include="Assets\scripts\JointRotationSmoothController.cs" />
      <Compile Include="Assets\scripts\LeftHandState.cs" />
      <Compile Include="Assets\scripts\Pour.cs" />
+     <Compile Include="Assets\scripts\PourBatter.cs" />
      <Compile Include="Assets\scripts\Utils.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>L:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
